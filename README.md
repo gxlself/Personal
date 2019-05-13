@@ -2,6 +2,6 @@
   个人网站首页
 
 ----
-- [个人博客](https://gxlself.com)
+- ![blog](https://gxlself.com/images/icon-blog.png"个人博客")[个人博客](https://gxlself.com)
 ----
-- [github](https://github.com/gxlself)
+- ![github](https://gxlself.com/images/icon-blog.png"github")[github](https://github.com/gxlself)
