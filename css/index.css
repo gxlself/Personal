@@ -1,0 +1,230 @@
+html,body{
+  height: 100%;
+  font-family:PingFang-SC-Medium;
+}
+icon-title{
+  display: inline-block;
+}
+.gxl-title{
+  text-align: center;
+  white-space: nowrap;
+  font-weight: bold;
+  color: rgba(255,255,255,1);
+}
+.gxl-quotes{
+  margin: 0 auto;
+  color: rgba(255,255,255,1);
+}
+.gxl-quotes::after{
+  content: '—— Glen';
+  display: block;
+  text-align: right;
+}
+.gxl-body{
+  position: relative;
+  margin: 0 auto;
+  background: #F3F2FA;
+}
+.gxl-type{
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.gxl-url{
+  background: rgba(204,204,204,0.2);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex-grow: 1;
+  white-space: nowrap;
+  color: #4E4E4E;
+}
+@media screen and (max-width: 768px) {
+  .gxl{
+    height: 100%;
+    background: rgb(61,59,96) url(../images/bg-phone.png) center 0 no-repeat;
+    background-size: 100%;
+  }
+  .gxl-header{
+    padding: 60px 0 96px;
+    background-size: 100%;
+    font-size: 12px;
+  }
+  .gxl-title{
+    font-size: 30px;
+  }
+  .gxl-quotes{
+    width: 74.2vw;
+    margin-top: 45px;
+    font-size: 15px;
+  }
+  .gxl-quotes::after{
+    margin-top: 7px;
+    font-size: 18px;
+  }
+  .gxl-type~.gxl-type{
+    margin-top: 20px;
+  }
+  .gxl-body{
+    width: 80vw;
+    padding: 60px 22px;
+    border-radius: 10px;
+  }
+  .gxl-body::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(243,242,250,1);
+    opacity: 0.4;
+    border-radius: 10px;
+    left: 6px;
+    top: 5px;
+    z-index: -1;
+  }
+  .gxl-url{
+    padding: 12px 13px;
+  }
+  icon-title{
+    min-width: 4em;
+    padding: 13px 10px 11px 34px;
+    color: #756AB6;
+    font-size: 14px;
+    text-align: center;
+  }
+  icon-title[type='blog']{
+    background: #E0DFE6 url('../images/icon-blog.png') 10px center no-repeat;
+    background-size: 20px 20px;
+  }
+  icon-title[type='github']{
+    background: #E0DFE6 url('../images/icon-github.png') 10px center no-repeat;
+    background-size: 20px 20px;
+  }
+}
+@media screen and (min-width: 768px){
+  html{
+    font-size: 12px;
+  }
+  .gxl{
+    height: 100%;
+    background: rgb(132, 115, 181) url(../images/bg-pc.png) center 0 no-repeat;
+    background-size: 100%;
+  }
+  .gxl-header{
+    padding: 7.3rem 0 4.6rem;
+    background-size: 100%;
+  }
+  .gxl-title{
+    font-size: 3.3rem;
+  }
+  .gxl-quotes{
+    width: 30rem;
+    margin-top: 2.6rem;
+    font-size: 1.3rem;
+  }
+  .gxl-quotes::after{
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+  .gxl-body{
+    width: 30rem;
+    padding: 7.3rem 2.6rem;
+    border-radius: 1.3rem;
+  }
+  .gxl-body::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background:rgba(243,242,250,1);
+    opacity:0.4;
+    border-radius: 1.3rem;
+    left: 0.7rem;
+    top: 0.7rem;
+    z-index: -1;
+  }
+  .gxl-type~.gxl-type{
+    margin-top: 2rem;
+  }
+  .gxl-url{
+    padding: 2rem 1.3rem;
+    font-size: 1.3rem;
+  }
+  icon-title{
+    min-width: 4em;
+    padding: 2rem 1.3rem 2rem 4rem;
+    color: #756AB6;
+    font-size: 1.3rem;
+  }
+  icon-title[type='blog']{
+    background: #E0DFE6 url('../images/icon-blog.png') 1.3rem center no-repeat;
+    background-size: 2rem 2rem;
+  }
+  icon-title[type='github']{
+    background: #E0DFE6 url('../images/icon-github.png') 1.3rem center no-repeat;
+    background-size: 2rem 2rem;
+  }
+}
+@media screen and (min-width: 1920px) {
+  html{
+    font-size: 12px;
+  }
+  .gxl{
+    height: 100%;
+    background: rgb(132, 115, 181) url(../images/bg-pc.png) center 0 no-repeat;
+    background-size: 100%;
+  }
+  .gxl-header{
+    padding: 11rem 0 7rem;
+    background-size: 100%;
+  }
+  .gxl-title{
+    font-size: 5rem;
+  }
+  .gxl-quotes{
+    width: 45rem;
+    margin-top: 4rem;
+    font-size: 2rem;
+  }
+  .gxl-quotes::after{
+    font-size: 36px;
+    margin-top: 3rem;
+  }
+  .gxl-body{
+    width: 45rem;
+    padding: 11rem 4rem;
+    border-radius: 2rem;
+  }
+  .gxl-body::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background:rgba(243,242,250,1);
+    opacity:0.4;
+    border-radius: 2rem;
+    left: 1rem;
+    top: 1rem;
+    z-index: -1;
+  }
+  .gxl-type~.gxl-type{
+    margin-top: 3rem;
+  }
+  .gxl-url{
+    padding: 3rem 2rem;
+    font-size: 2rem;
+  }
+  icon-title{
+    min-width: 4em;
+    padding: 3rem 2rem 3rem 6rem;
+    color: #756AB6;
+    font-size: 2rem;
+  }
+  icon-title[type='blog']{
+    background: #E0DFE6 url('../images/icon-blog.png') 2rem center no-repeat;
+    background-size: 3rem 3rem;
+  }
+  icon-title[type='github']{
+    background: #E0DFE6 url('../images/icon-github.png') 2rem center no-repeat;
+    background-size: 3rem 3rem;
+  }
+}
